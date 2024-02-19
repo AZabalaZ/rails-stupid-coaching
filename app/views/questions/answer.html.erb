@@ -1,0 +1,9 @@
+<div class="container">
+<h3><%= @ask %></h3>
+<h3>-You</h3>
+
+<h3 class="bg-warning p-2 text-dark bg-opacity-10"><%= @answer %></h3>
+<h3 class="bg-warning p-2 text-dark bg-opacity-10">-Coach</h3>
+
+<%= link_to "Ask a new question", ask_path, class: "ask-new-question" %>
+</div>
